@@ -4,6 +4,8 @@ project(MyProject)
 enable_testing()
 
 find_package( GTest 1.8.0 )
+include( UnitTest.cmake )
+
 add_subdirectory( Algorithm )
 
 set( CMAKE_CXX_STANDARD 14 )
