@@ -34,5 +34,5 @@ INSTANTIATE_TEST_CASE_P( MyAddTest, MyAddFixture, ::testing::Values(
         AddParas{ 2, 3, 5 },
         AddParas{ -1, -3, -4 },
         AddParas{ -2, 3, 1 },
-        AddParas{ 2, -3, 1 }
+        AddParas{ 2, -3, -1 }
 ) );
